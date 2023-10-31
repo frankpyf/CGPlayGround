@@ -1,0 +1,3 @@
+[submodule "external/VulkanMadeEasy"]
+	path = external/VulkanMadeEasy
+	url = git@github.com:frankpyf/VulkanMadeEasy.git

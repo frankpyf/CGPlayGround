@@ -8,6 +8,6 @@ project(
 set(CMAKE_CXX_STANDARD 20)
 
 file(GLOB SRC src/*.cpp)
-add_subdirectory(lib/VulkanMadeEasy ${CMAKE_SOURCE_DIR}/bin)
+add_subdirectory(external/VulkanMadeEasy)
 add_executable(CGPlayground ${SRC})
 target_link_libraries(CGPlayground VulkanMadeEasy)
