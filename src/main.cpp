@@ -3,7 +3,8 @@
 
 int main()
 {
-    vme::VulkanEngine core;
-    vme::Window window(1920,1080, "test");
+    vme::VulkanEngine::Builder engine_builder;
+    auto engine = engine_builder.SetAppName("CGPlayground")
+        .Build();
     return 0;
 }
