@@ -1,4 +1,5 @@
 #include "VulkanEngine.h"
+#include <memory>
 
 class Application {
 std::unique_ptr<vme::VulkanEngine> m_engine_;
